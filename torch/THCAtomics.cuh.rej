@@ -1,0 +1,7 @@
+--- lib/THC/THCAtomics.cuh
++++ lib/THC/THCAtomics.cuh
+@@ -118,3 +118,4 @@ static inline  __device__ void atomicAdd(half *address, half val) {
+    } while (assumed != old);
+ }
+ #endif
++#endif
